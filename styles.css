@@ -1,0 +1,167 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Custom background color */
+body {
+    background-color: #d8ffde; /* Light blue background */
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #740000;
+    color: rgb(228, 254, 232);
+    padding: 20px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 1.1em;
+    text-decoration: none;
+}
+
+/* Section Container */
+.section-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgb(255, 208, 208);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the Home Section */
+#home {
+    background-color: rgb(255, 208, 208);
+}
+
+h2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 2em;
+    color: #004d0d;
+}
+
+/* About Section Styling */
+#about ol {
+    padding-left: 20px;
+}
+
+#about ul {
+    padding-left: 30px;
+}
+
+/* Service Boxes */
+.service-box {
+    display: inline-block;
+    width: 30%;
+    margin: 10px 1%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffdddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.service-box h3 {
+    font-family: 'Georgia', serif;
+    color: #333;
+    font-size: 1.6em;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.service-box p {
+    font-size: 1em;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    background-color: #590000;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+}
+
+/* Anchor Link (for On-Page Navigation) */
+a {
+    color: #2e8c41;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Centering the video and styling */
+#video {
+    text-align: center;  /* Center the heading and video */
+    margin: 40px auto;   /* Add spacing around the video container */
+    max-width: 800px;    /* Limit the max width of the video container */
+}
+
+#video h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.8em;
+    color: #004114;
+    margin-bottom: 20px;  /* Add spacing below the heading */
+}
+
+/* Make video container responsive */
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 (height / width = 9/16 = 0.5625) */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    background: #000; /* Optional: background color for video container */
+    border-radius: 8px; /* Optional: rounded corners for the video container */
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px; /* Optional: rounded corners for the iframe */
+}
+
+
+
+
+
+
+
